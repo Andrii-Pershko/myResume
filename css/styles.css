@@ -128,9 +128,13 @@ aside::before {
 	width: 1.5px;
 	height: 80%;
 
-	top: 75%;
+	top: 71%;
 	left: -21px;
 	transform: translate(0, -50%);
+}
+
+.summary p {
+	line-height: 1.5;
 }
 
 img {
@@ -153,6 +157,10 @@ a svg {
 	fill: rgb(75, 76, 75);
 }
 
+.information-about-me a:hover svg {
+	fill: var(--primal-color);
+}
+
 .thumb {
 	display: flex;
 	align-items: center;
@@ -170,10 +178,6 @@ a svg {
 	margin-left: 0;
 }
 
-a:hover svg {
-	fill: var(--primal-color);
-}
-
 a {
 	display: inline-flex;
 	align-items: center;
@@ -188,18 +192,23 @@ a {
 	margin-bottom: 20px;
 }
 
-.contact a:hover {
-	color: var(--primal-color);
-}
-
-.contact-imems:hover .thumb {
-	border: 1px solid var(--primal-color);
-}
-
 .contact-imems::before {
 	width: 0;
 	height: 0;
 }
+
+.link-contact:hover svg {
+	fill: var(--primal-color);
+}
+.link-contact:hover .thumb {
+	border: 1px solid var(--primal-color);
+}
+
+.link-contact:hover {
+	color: var(--primal-color);
+}
+
+/*  */
 
 h2 {
 	position: relative;
@@ -263,4 +272,17 @@ li p {
 
 .education p {
 	margin-bottom: 10px;
+}
+
+.education li::before {
+	content: "";
+	position: absolute;
+	display: block;
+	background-color: var(--primal-color);
+	width: 10px;
+	height: 10px;
+	border-radius: 50%;
+	top: 18px;
+	left: -30px;
+	transform: translate(0, -50%);
 }
