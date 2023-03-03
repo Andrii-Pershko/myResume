@@ -234,6 +234,10 @@ li p {
 	text-align: justify;
 }
 
+.language-items:last-child::before {
+	top: 23%;
+}
+
 h3::before {
 	content: "";
 	position: absolute;
