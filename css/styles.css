@@ -110,7 +110,6 @@ aside {
 	background-color: var(--primal-color);
 	width: 1.5px;
 	height: 105%;
-
 	left: -21px;
 	transform: translate(0, 1%);
 }
@@ -128,7 +127,7 @@ aside::before {
 	width: 1.5px;
 	height: 80%;
 
-	top: 74%;
+	top: 75%;
 	left: -21px;
 	transform: translate(0, -50%);
 }
