@@ -127,7 +127,7 @@ aside::before {
 	width: 1.5px;
 	height: 80%;
 
-	top: 75%;
+	top: 67%;
 	left: -21px;
 	transform: translate(0, -50%);
 }
@@ -199,6 +199,7 @@ a {
 .link-contact:hover svg {
 	fill: var(--primal-color);
 }
+
 .link-contact:hover .thumb {
 	border: 1px solid var(--primal-color);
 }
