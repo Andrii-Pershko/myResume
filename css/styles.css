@@ -51,6 +51,7 @@ h6 {
 }
 
 body {
+	font-display: block;
 	font-family: "Jura", sans-serif;
 	font-size: 24px;
 	color: var(--text-color);
@@ -126,8 +127,7 @@ aside::before {
 	background-color: var(--primal-color);
 	width: 1.5px;
 	height: 80%;
-
-	top: 63%;
+	top: 63.5%;
 	left: -21px;
 	transform: translate(0, -50%);
 }
